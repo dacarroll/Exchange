@@ -23,4 +23,8 @@ VERBOSE: Get-OWALogs complete, RunTime = 00:30:00.6168589
 
 #LogFiles Parsed: 110
 #Rows of text: 10,398,113
+#RunTime:
+    #Minutes:      30
+    #Seconds:      00
+    #Milliseconds: 62
 ```
