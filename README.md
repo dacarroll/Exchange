@@ -4,7 +4,15 @@ This module is for gathering Exchange IIS logs and parsing the results.
 
 Guide:
 
-//TODO
+```PowerShell
+#Parse Exchange IIS logs and output to log
+$Date = [DateTime]::Now.AddDays(-1)
+Get-OWALogs -Date $Date -LogOutputPath C:\LogOutput
+
+#Parse Exchange IIS logs and output to host
+$Date = [DateTime]::Now.AddDays(-1)
+Get-OWALogs -Date $Date
+```
 
 Performance:
 
