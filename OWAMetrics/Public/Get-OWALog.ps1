@@ -1,4 +1,4 @@
-﻿function Get-OWALogs {
+﻿function Get-OWALog {
 
     [cmdletbinding()]
 	Param (
@@ -8,7 +8,7 @@
     ) 
 
     Begin {
-        $jsonConfig = Get-ExchangeIISLogs
+        $jsonConfig = Get-ExchangeIISLog
         $csRefererFilter = $jsonConfig.csReferer.ToString()
         $csUserFilter = $jsonConfig.csUserName.ToString()
         $ExchangeServers = $jsonConfig.Exchange

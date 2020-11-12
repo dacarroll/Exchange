@@ -1,4 +1,4 @@
-﻿function Get-ExchangeIISLogs {
+﻿function Get-ExchangeIISLog {
     [cmdletbinding()]
     param (
     )
